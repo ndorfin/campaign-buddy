@@ -1,0 +1,21 @@
+---
+
+---
+<%
+  content_for :page_heading, npc.title
+  content_for :section_heading, 'NPCs'
+  content_for :page_title, npc.title
+  content_for :page_type, 'article'
+  content_for :page_description, npc.description
+%>
+<p><%= npc.description %></p>
+<dl>
+  <dt>Name</dt>
+  <dd><%= npc.name %></dd>
+  <dt>Species</dt>
+  <dd><%= npc.species %></dd>
+  <dt>Size</dt>
+  <dd><%= npc.size_class %></dd>
+  <dt>Appearance</dt>
+  <dd><%= npc.appearance %></dd>
+</dl>

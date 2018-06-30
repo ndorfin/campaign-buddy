@@ -1,0 +1,22 @@
+{
+  "name": "Campaign Buddy",
+  "title": "Campaign Buddy",
+  "description": "A useful way to document and track entities in a role-playing campaign",
+  "lang": "en-NZ",
+  "type": "website",
+  "image_url": "/opengraph.png",
+  "short_name": "CBuddy",
+  "theme": {
+    "background_color": "#fff",
+    "foreground_color": "#000"
+  },
+  "orientation": "portrait",
+  "display_type": "standalone",
+  "make_icons": false,
+  "icons": [
+    {
+      "href": "/favicon.ico",
+      "sizes": "16x16 32x32"
+    }
+  ]
+}
