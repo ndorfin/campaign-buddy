@@ -3,6 +3,6 @@ content_for :page_heading, "Non-player Characters (NPCs)"
 %>
 <ul>
 <% data.npcs.each do |id, npc| %>
-<li><a href="<%= id %>"><%= npc.name %></a>, <%= npc.species %></li>
+<li><a href="<%= id %>/"><%= npc.name %></a>, <%= npc.species %></li>
 <% end %>
 </ul>

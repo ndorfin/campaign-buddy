@@ -8,7 +8,10 @@
   content_for :page_type, 'article'
   content_for :page_description, npc.description
 %>
+
 <p><%= npc.description %></p>
+
+<h3>Stats</h3>
 <dl>
   <dt>Name</dt>
   <dd><%= npc.name %></dd>
@@ -16,6 +19,18 @@
   <dd><%= npc.species %></dd>
   <dt>Size</dt>
   <dd><%= npc.size_class %></dd>
-  <dt>Appearance</dt>
-  <dd><%= npc.appearance %></dd>
+</dl>
+
+<h3>Appearance</h3>
+<p><%= npc.appearance %></p>
+
+<h3>Backstory</h3>
+<p><%= npc.back_story %></p>
+
+<h3>Relationships</h3>
+<dl>
+<% npc.relationships.each do |id, rel| %>
+  <dt><%= id %></dt>
+  <dd><a href="/npcs/<%= rel %>/"><%= rel %></a></dd>
+<% end %>
 </dl>
