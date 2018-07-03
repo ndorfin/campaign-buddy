@@ -1,0 +1,18 @@
+---
+slug: silas-the-hold-boy
+name: Silas
+title: Silas the hold boy
+species: Human
+size_class: medium
+description: Young, nimble, and tough as nails
+appearance: |-
+  Silas is young, and dressed about as well as a barefoot beggar.
+
+  His nails have been bitten down to length, and his hair is a rats nest, pulled together at the back with a thin strand of leather.
+
+  At first glance he seems scrawny, but he has a wildness to him that yields strength and dexterity.
+back_story: |-
+
+location: the-pilgrim-ship
+relationships:
+  owner: quartermaster-juge

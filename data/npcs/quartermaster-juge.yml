@@ -1,0 +1,15 @@
+---
+slug: quartermaster-juge
+name: Juge
+title: Juge the Quartermaster
+species: Human
+size_class: medium
+description: The Pilgrim's carpenter, supply foreman, and resident drunkard.
+appearance: |-
+
+back_story: |-
+
+location: the-pilgrim-ship
+relationships:
+  boss: captain-svalbard
+  slave: silas-the-hold-boy

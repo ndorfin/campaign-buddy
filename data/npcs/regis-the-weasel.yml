@@ -4,8 +4,25 @@ name: Regis
 title: Regis the weasel
 species: Weasel
 size_class: small
-description: The cook's pet is a fierce but inquisitive weasel called 'Regis'.
-appearance: The weasel is just smaller than your typical house cat, but has a presence of a feral coon, and moves with the speed and grace of a hyperactive snake. It has an Orangey-brown shiny coat on top. The Underparts look dirty, a muddied or creamy white colour. The animal's legs are typical for any weasel, long, with expressive- and almost primate-like arms, adorned with sharp claws. Its teeth are clean and proportionally larger than any weasel you've seen before. It looks at you with hazel eyes in an inquisitive manner, but you can't tell if its gaze is one of curiousity or of measuring. For something so small, it sure does look threatening.
-back_story: Weasels had always had a place in Jaytoo's culture. They're guardians of the home, keeping vermin at bay. Regis was just a pup when Jaytoo took to sea, and has grown into his sea legs well. You sense there's more to Regis than meets the eye, especially when he cocks his head to the side as you speak to it, as if intently listening to what you have to say.
+description: The cook's pet is a fierce but inquisitive weasel named 'Regis'.
+appearance: |-
+  The weasel is about the size of your typical house cat, but has a presence of a feral coon, and moves with the heightened speed and grace.
+
+  It has an Orangey-brown shiny coat on top.
+
+  The Underparts look dirty, a muddied or creamy white colour.
+
+  The animal's legs are typical for any weasel, long, with expressive- and almost primate-like arms, adorned with sharp claws.
+
+  Its teeth are clean and proportionally larger than any weasel you've seen before.
+
+  It looks at you with hazel eyes in an inquisitive manner, but you can't tell if its gaze is one of curiousity or of measuring.
+
+  For something so small, it sure does look threatening.
+back_story: |-
+  Weasels had always had a place in Jaytoo's culture. They're guardians of the home, keeping vermin at bay. Regis was just a pup when Jaytoo took to sea, and has grown into his sea legs well.
+
+  You sense there's more to Regis than meets the eye, especially when he cocks his head to the side as you speak to it, as if intently listening to what you have to say.
+location: the-pilgrim-ship
 relationships:
   owner: jaytoo-the-cook

@@ -21,16 +21,32 @@
   <dd><%= npc.size_class %></dd>
 </dl>
 
+<% if npc.appearance %>
 <h3>Appearance</h3>
 <p><%= npc.appearance %></p>
+<% end %>
 
+<% if npc.back_story %>
 <h3>Backstory</h3>
 <p><%= npc.back_story %></p>
+<% end %>
 
+<% if npc.relationships %>
 <h3>Relationships</h3>
 <dl>
 <% npc.relationships.each do |id, rel| %>
   <dt><%= id %></dt>
-  <dd><a href="/npcs/<%= rel %>/"><%= rel %></a></dd>
+  <dd>
+    <% if rel.kind_of?(Array) %>
+    <ul>
+      <% rel.each do |r| %>
+      <li><a href="/npcs/<%= r %>/"><%= r %></a></li>
+      <% end %>
+    </ul>
+    <% else %>
+    <a href="/npcs/<%= rel %>/"><%= rel %></a>
+    <% end %>
+  </dd>
 <% end %>
 </dl>
+<% end %>

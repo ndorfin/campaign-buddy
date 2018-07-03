@@ -1,0 +1,24 @@
+---
+slug: criek-the-first-mate
+name: Criek
+title: Criek the first mate
+species: Human
+size_class: medium
+description: The Pilgrim's first mate and right-hand-man to the Captain.
+appearance: |-
+  Criek is the epitome of a crusty sea dog.
+
+  A shawl for a shirt, with a leather belt somehow keeping it all together. A crude scabbard is attached to the belt containing a cutlass of sorts, a sword that could really do with some sharpening.
+
+  Rolled up leggings and leather shoes complete his clothing.
+
+  His skin is wrinkly and brown from the sun, his hair almost completely white from sea bleaching and old-age.
+
+  He smiles at you with yellow teeth.
+back_story: |-
+  Criek started working for the Captain about 9 years ago after a recruitment drive that started in Dinnesmore's port-side pissing saloon, The Limp Fish. He used to be a regular there.
+
+  Before that he worked as a deck-hand (and eventually first mate) on a spice runner for one of the larger shipping companies.
+location: the-pilgrim-ship
+relationships:
+  boss: captain-svalbard

@@ -37,6 +37,12 @@ configure :server {
       locals: { npc: npc }
   end
 
+  data.locations.each do |id, loc|
+    proxy "/locations/#{id}/index.html",
+      '/templates/template_location.html',
+      locals: { location: loc }
+  end
+
   activate :external_pipeline,
     name: :webpack,
     command: 'npm run webpack:server',

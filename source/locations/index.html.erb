@@ -1,0 +1,8 @@
+<%
+content_for :page_heading, "Locations"
+%>
+<ul>
+<% data.locations.each do |id, loc| %>
+<li><a href="<%= id %>/"><%= loc.name %></a>, <%= loc.type %></li>
+<% end %>
+</ul>

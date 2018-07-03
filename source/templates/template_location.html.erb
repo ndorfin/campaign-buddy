@@ -1,0 +1,16 @@
+<%
+  content_for :page_heading, location.name
+  content_for :section_heading, 'Locations'
+  content_for :page_title, location.name
+  content_for :page_type, 'article'
+%>
+
+<h3>Details</h3>
+<dl>
+  <dt>Name</dt>
+  <dd><%= location.name %></dd>
+</dl>
+
+<h3>Description</h3>
+<pre style="font-family:serif;"><%= location.description %></pre>
+

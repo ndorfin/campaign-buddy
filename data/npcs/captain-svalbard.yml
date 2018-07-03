@@ -1,0 +1,24 @@
+---
+slug: captain-svalbard
+name: Svalbard
+title: Captain Svalbard
+species: Human
+size_class: medium
+description: The Pilgrim's Captain is a no-nonsense type on a mission
+appearance: |-
+  The first thing you notice about the captain is a scimitar attached to her right hip, her hand always resting above the hilt on her hip.
+  On the opposite hip is an ornate leather carry case attached to the belt.
+
+  The captain is physically fit, with an average height. Her skin is bronzed from countless hours spent on the deck of the ship.
+
+  Her clothing style is functional but still stylish, especially when compared to the rest of the crew.
+
+  Her face is obscured by her dark hair and a wide-brimmed hat.
+back_story: |-
+  Not much is known about the Captain. Any questions into her past will be met with scorn and worse, punishment.
+location: the-pilgrim-ship
+relationships:
+  employees:
+    - criek-the-first-mate
+    - jaytoo-the-cook
+    - quartermaster-juge

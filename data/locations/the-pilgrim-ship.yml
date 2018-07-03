@@ -1,0 +1,19 @@
+---
+slug: the-pilgrim-ship
+name: The Pilgrim
+type: Ship
+description: |-
+  The Pilgrim is a well-kept two-mast Galleon, wood with metal finishes.
+
+  Above deck, the wooden structure has a healthy oiled appearance. Rope riggings are cleanly-stored and the sails are immaculate.
+
+  Below deck, there are two rows of portholes and four hatches for cannons.
+
+  The only aspect of the ship that looks out of place is the figurehead, it's a  caterpillar!
+npcs:
+  - captain-svalbard
+  - criek-the-first-mate
+  - jaytoo-the-cook
+  - regist-the-weasel
+  - quartermaster-juge
+  - silas-the-hold-boy
